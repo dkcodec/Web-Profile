@@ -539,3 +539,66 @@ img{
 .button__ghost:hover{
     border: 3px solid var(--first-color);
 }
+
+/* Services */
+
+.services__container{
+    grid-template-columns: 250px;
+    justify-content: center;
+    row-gap: 1rem;
+    padding-top: 1rem;
+}
+
+.services__card{
+    position: relative;
+}
+
+.services__content{
+    height: 100%;
+    background-color: var(--body-color);
+    border: 4px solid var(--black-color);
+    padding: 6rem 1rem 3rem;
+    z-index: 5;
+    position: relative;
+    transition: background-color .4s, border .4s;
+}
+
+.services__border{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 4px solid var(--first-color);
+    top: 0;
+    left: 0;
+    transition: transform .4s;
+}
+
+.services__card:hover .services__border{
+    transform: translate(.75rem,.75rem);
+}
+
+.services__icon{
+    position: relative;
+    display: inline-block;
+}
+
+.services__icon i{
+    font-size: 2rem;
+    color: var(--black-color);
+    position: relative;
+    z-index: 5;
+}
+
+.services__box{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: var(--first-color);
+    right: -2px;
+    top: -2px;
+}
+
+.services__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: 1.25rem;
+}
