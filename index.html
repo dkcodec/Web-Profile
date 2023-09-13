@@ -323,12 +323,95 @@
         </section>
 
         <section class="contact section" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__data">
+                    <h2 class="contact__title-2">
+                        <span>Contact Me.</span>
+                    </h2>
 
+                    <p class="contact__description-1">
+                        Every message you send me I read and I'll get back to you.
+                    </p>
+
+                    <p class="contact__description-2">
+                        Please tell me your <b>Name</b> and <b>Email address</b>, you won't get anything other than your question.
+                    </p>
+
+                    <div class="geometric-box"></div>
+                </div>
+
+                <div class="contact__mail">
+                    <h2 class="contact__title">
+                        Get In Touch With Me
+                    </h2>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__group">
+                            <div class="contact__box">
+                                <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+                                <label for="name" class="contact__label">First Name</label>
+                            </div>
+                        </div>
+                         
+                        <div class="contact__box">
+                            <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                            <label for="email" class="contact__label">Email Address</label>
+                        </div>
+                        
+                        <div class="contact__box">
+                            <input type="subject" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
+                            <label for="subject" class="contact__label">Subject</label>
+                        </div>
+
+                        <div class="contact__box contact__area">
+                            <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                            <label for="message" class="contact__label">Message</label>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__button button">
+                            <i class="ri-send-plane-line"></i>Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact__social">  
+                    
+                    <div class="contact__social-data">
+                        <div>
+                            <p class="contact__social-description-1">
+                                Doesn't send emails
+                            </p>
+
+                            <p class="contact__social-description-1">
+                                Me on my social networks
+                            </p>
+                        </div>
+
+                        <div class="contact__social-links">
+                            <a href="https://instagram.com/ne_tvoi_fotograf?igshid=YTQwZjQ0NmI0OA==" target="_blank" class="contact__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/dmitry-kairgeldin-94a793290/?trk=public-profile-join-page" target="_blank" class="contact__social-link">
+                                <i class="ri-linkedin-box-line"></i>
+                            </a>
+
+                            <a href="https://t.me/KaDmRo" target="_blank" class="contact__social-link">
+                                <i class="ri-telegram-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </mian>
     <footer class="footer">
         
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
     <script src="js/main.js"></script>
 </body>
 </html>

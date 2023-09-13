@@ -635,7 +635,7 @@ img{
     margin-bottom: 1.25rem;
 }
 
-.projects__subtitile{
+.projects__subtitle{
     position: relative;
     display: inline-block;
     font-size: var(--small-font-size);
@@ -688,4 +688,202 @@ img{
 
 .projects__card:hover{
     background-color: var(--white-color);
+}
+
+/* Contact */
+.contact{
+    padding-bottom: 0;
+}
+
+.contact__container{
+    position: relative;
+    grid-template-rows: 300px max-content max-content;
+    row-gap: 0;
+}
+
+.contact__data{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: var(--container-color);
+    padding: 3rem 1.5rem 3.5rem;
+    margin-left: auto;
+    border-bottom: 4px solid var(--first-color);
+    z-index: 5;
+    transition: background-color .4s;
+}
+
+.contact__data .contact__title-2{
+    margin: 0 0 1.5rem;
+    transform: translateX(-3rem);
+}
+
+.contact__description-1{
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-bottom: 2rem;
+}
+
+.contact__description-2{
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+}
+
+.contact__data .geometric-box{
+    top: 2rem;
+    right: 3rem;
+}
+
+.contact__mail{
+    position: relative;
+    background-color: var(--black-color);
+    padding: 5rem 1.5rem 2.5rem;
+    margin-top: -2rem;
+    transition: background-color .4s;
+}
+
+.contact__title{
+    color: var(--white-color);
+    font-size: var(--h2-font-size);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.contact__form, .contact__group{
+    display: grid;
+    row-gap: 1.25rem;
+}
+
+.contact__form{
+    position: relative;
+}
+
+.contact__box{
+    position: relative;
+    width: 100%;
+    height: 58px;
+}
+
+.contact__input,
+.contact__button{
+    font-size: var(--normal-font-size);
+    outline: none;
+    border: none;
+}
+
+.contact__input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black-color);
+    border: 3px solid var(--black-color-light);
+    color: var(--white-color);
+    padding: .5rem 1rem;
+    font-weight: var(--font-medium);
+    transition: background-color .4s, border .4s;
+}
+
+.contact__input::placeholder{
+    color: var(--text-color-light);
+    transition: opacity .4s;
+}
+
+.contact__input:focus{
+    border: 3px solid var(--white-color);
+}
+
+.contact__input:-webkit-autofill{
+    transition: background-color 6000s, color 6000s;
+}
+
+.contact__label{
+    position: absolute;
+    top: -16px;
+    left: 10px;
+    color: var(--text-color-light);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    background-color: var(--black-color);
+    padding: 8px;
+    pointer-events: none;
+    transition: top .4s, opacity .4s, background-color .4s;
+    opacity: 0;
+}
+
+.contact__form .contact__area{
+    height: 10rem;
+}
+
+.content__area textarea{
+    resize: none;
+    padding-top: 1rem;
+}
+
+.contact__button{
+    background-color: var(--first-color);
+    cursor: pointer;
+}
+
+.contact__input:focus::placeholder{
+    opacity: 0;
+}
+
+.contact__input:focus + .contact__label,
+.contact__input:not(:placeholder-shown).contact__input:not(:focus) + .contact__label{
+    opacity: 1;
+    top: -16px;
+}
+
+.contact__social{
+    display: grid;
+    row-gap: 1rem;
+    background-color: rgba(0, 0, 0, .9);
+    padding-block: 1rem 2rem;
+    text-align: center;
+}
+
+.contact__social-data{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.contact__social-description-1{
+    color: var(--text-color-light);
+    font-size: var(--small-font-size);
+    margin-bottom: .5rem;
+}
+
+.contact__social-description-2{
+    color: var(--white-color);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.contact__social-links{
+    display: flex;
+    justify-content: center;
+    column-gap: .75rem;
+}
+
+.contact__social-link{
+    background-color: var(--black-color-light);
+    padding: 6px;
+    color: var(--white-color);
+    font-size: 1.25rem;
+    display: grid;
+    place-items: center;
+    transition: background-color .3s;
+}
+
+.contact__social-link:hover{
+    background-color: var(--first-color);
+}
+
+.contact__message{
+    color: var(--white-color);
+    font-size: var(--small-font-size);
+    position: absolute;
+    bottom: -1.6rem;
+    left: 0;
 }
