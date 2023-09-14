@@ -36,7 +36,7 @@
                         <a href="#projects" class="nav__link">Projects</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#contact" class="nav__link">Contact</a>
+                        <a href="#contact" class="nav__link nav__link-button">Contact</a>
                     </li>
                 </ul>
 
@@ -46,6 +46,8 @@
             </div>
 
             <div class="nav__buttons">
+                <i class="ri-contrast-2-line change-theme" id="theme-button"></i>
+
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-menu-4-line"></i>
                 </div>
@@ -351,22 +353,23 @@
                                 <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
                                 <label for="name" class="contact__label">First Name</label>
                             </div>
-                        </div>
-                         
-                        <div class="contact__box">
-                            <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
-                            <label for="email" class="contact__label">Email Address</label>
+                            
+                            <div class="contact__box">
+                                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                                <label for="email" class="contact__label">Email Address</label>
+                            </div>
+                        
                         </div>
                         
-                        <div class="contact__box">
-                            <input type="subject" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
-                            <label for="subject" class="contact__label">Subject</label>
-                        </div>
+                            <div class="contact__box">
+                                <input type="subject" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
+                                <label for="subject" class="contact__label">Subject</label>
+                            </div>
 
-                        <div class="contact__box contact__area">
-                            <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
-                            <label for="message" class="contact__label">Message</label>
-                        </div>
+                            <div class="contact__box contact__area">
+                                <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                                <label for="message" class="contact__label">Message</label>
+                            </div>
 
                         <p class="contact__message" id="contact-message"></p>
 
@@ -381,7 +384,7 @@
                     <div class="contact__social-data">
                         <div>
                             <p class="contact__social-description-1">
-                                Doesn't send emails
+                                Doesn't send emails?
                             </p>
 
                             <p class="contact__social-description-1">
@@ -408,8 +411,34 @@
         </section>
     </mian>
     <footer class="footer">
-        
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+
+                <li>
+                    <a href="#services" class="footer__link">Services</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169 all rights reserved by <b>Kairgeldin Dmitry</b>
+                <b>&#169 2023</b>
+            </span>
+        </div>
     </footer>
+
+    <a href="#" class="scroll__up" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <script src="js/scrollreveal.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
     <script src="js/main.js"></script>
