@@ -1,3 +1,5 @@
 # Web-Profile
 
-My own web-site about me
+My own website about me
+
+You can check it by link: https://dkcodec.github.io/Web-Profile/
