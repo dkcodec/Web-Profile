@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Comfortaa:wght@300&family=Fredoka:wght@500&family=Quicksand:wght@400;500;600;700&family=Roboto+Mono:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Comfortaa:wght@300&family=Fredoka:wght@500&family=Quicksand:wght@400;500;600;700&family=Roboto+Mono:wght@300&display=swap');
 
 :root {
   --header-height: 3.5rem;
@@ -53,11 +53,11 @@ html {
 }
 
 body {
-  font-family: "ADLaM Display", cursive;
-  font-family: "Comfortaa", cursive;
-  font-family: "Fredoka", sans-serif;
-  font-family: "Quicksand", sans-serif;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'ADLaM Display', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
@@ -173,7 +173,7 @@ body.dark-theme {
 
 .section__title-1::after,
 .section__title-2::after {
-  content: "";
+  content: '';
   width: 40px;
   height: 28px;
   background-color: rgba(21, 160, 195, 0.4);
@@ -196,7 +196,7 @@ body.dark-theme {
 }
 
 .geometric-box::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 16px;
   height: 16px;
@@ -292,7 +292,7 @@ body.dark-theme {
 
 .nav__name::after,
 .nav__name::before {
-  content: "";
+  content: '';
   width: 40px;
   height: 1px;
   background-color: var(--text-color-light);
@@ -321,7 +321,7 @@ body.dark-theme {
 }
 
 .nav__link::after {
-  content: "";
+  content: '';
   width: 0;
   height: 2px;
   background-color: var(--white-color);
@@ -558,7 +558,7 @@ body.dark-theme {
 }
 
 .about__description::after {
-  content: "";
+  content: '';
   width: 20px;
   height: 1px;
   background-color: var(--title-color);
@@ -726,7 +726,7 @@ body.dark-theme {
 }
 
 .projects__subtitle::after {
-  content: "";
+  content: '';
   width: 20px;
   height: 1px;
   background-color: var(--text-color);
@@ -1216,7 +1216,7 @@ body.dark-theme {
     padding-left: 3rem;
   }
   .home__description::after {
-    content: "";
+    content: '';
     width: 32px;
     height: 2px;
     background-color: var(--title-color);

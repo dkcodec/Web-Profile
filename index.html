@@ -1,501 +1,631 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="css/style.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="img/facicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+      crossorigin=""
+    />
+
+    <link rel="shortcut icon" href="img/facicon.png" type="image/x-icon" />
     <title>Dmitry Kairgeldin</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">
-                <span class="nav__logo-circle">D</span>
-                <span class="nav__logo-name">Kairgeldin Dmitry.</span>
-            </a>
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-circle">D</span>
+          <span class="nav__logo-name">Kairgeldin Dmitry.</span>
+        </a>
 
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
 
-            <div class="nav__menu" id="nav-menu">
-                <span class="nav__title">Menu</span>
+          <h3 class="nav__name">Dmitry</h3>
 
-                <h3 class="nav__name">Dmitry</h3>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link nav__link-button"
+                >Contact</a
+              >
+            </li>
+          </ul>
 
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About Me</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#projects" class="nav__link">Projects</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link nav__link-button">Contact</a>
-                    </li>
-                </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
 
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                </div>
-            </div>
+        <div class="nav__buttons">
+          <i class="ri-contrast-2-line change-theme" id="theme-button"></i>
 
-            <div class="nav__buttons">
-                <i class="ri-contrast-2-line change-theme" id="theme-button"></i>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-4-line"></i>
-                </div>
-            </div>
-        </nav>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <mian class="main">
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <h1 class="home__name">Dmitry Kairgeldin</h1>
-                <div class="home__perfil">
-                    <div class="home__image">
-                        <img src="img/INN05021.jpg" alt="image" class="home__img">
-                        <div class="home__shadow"></div>
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__name">Dmitry Kairgeldin</h1>
+          <div class="home__perfil">
+            <div class="home__image">
+              <img src="img/INN05021.jpg" alt="image" class="home__img" />
+              <div class="home__shadow"></div>
 
-                        <div class="geometric-box"></div>
-                    </div>
-
-                    <div class="home__social">
-                        <a href="https://instagram.com/ne_tvoi_fotograf?igshid=YTQwZjQ0NmI0OA==" target="_blank" class="home__social-link">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/dmitry-kairgeldin-94a793290/?trk=public-profile-join-page" target="_blank" class="home__social-link">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-                        <a href="https://github.com/dkcodec#" target="_blank" class="home__social-link">
-                            <i class="ri-github-line"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="home__info">
-                    <p class="home__description">
-                        <b>Software Engineer</b>, with knoledge in web
-                        development and design, I prefer study for my future.
-                    </p>
-
-                    <a href="#about" class="home__scroll">
-                        <div class="home__scroll-box">
-                            <i class="ri-arrow-down-s-line"></i>
-                        </div>
-
-                        <span class="home__scroll-text">Scroll Down</span>
-                    </a>
-                </div>
+              <div class="geometric-box"></div>
             </div>
-        </section>
 
-        <section class="about section" id="about">
-            <div class="about__container container grid">
-                <h2 class="section__title-1">
-                    <span>About Me.</span>
-                </h2>
-
-                <div class="about__perfil">
-                    <div class="about__image">
-                        <img src="img/INN05026.jpg" alt="image" class="about__img">
-                        
-                        <div class="about__shadow"></div>
-
-                        <div class="geometric-box"></div>
-
-                        <div class="about__box"></div>
-                    </div>
-                </div>
-
-                <div class="about__info">
-                    <p class="about__description">
-                        An accomplished, dedicated <b>Software Engineer</b> and student at Astana IT University, this individual excels in creating impressive <b>Web Pages</b> and <b>Web Applications</b>.  My Portfolio demonstrates a consistent commitment to excellence and innovative problem-solving skills, making me a valuable asset in the IT industry.
-                    </p>
-
-                    <ul class="about__list">
-                        <li class="about__item">
-                            <b>I have a strong background in:</b> HTML5, CSS, JavaScript, TypeScript, React.js, Next.js, TailWindCSS, RestAPI, Jest, Git & GitHub, 
-                        </li>
-                    </ul>
-
-                    <div class="about__buttons">
-                        <a href="#contact" class="button">
-                            <i class="ri-send-plane-line"></i>Contact Me
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/dmitry-kairgeldin-94a793290/?trk=public-profile-join-page" target="_blank" class="button__ghost">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-                    </div>
-                </div>
+            <div class="home__social">
+              <a
+                href="https://instagram.com/ne_tvoi_fotograf?igshid=YTQwZjQ0NmI0OA=="
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/dmitry-kairgeldin-94a793290/?trk=public-profile-join-page"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+              <a
+                href="https://github.com/dkcodec#"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
             </div>
-        </section>
+          </div>
 
-        <section class="services section">
-            <h2 class="section__title-2">
-                <span>Services.</span>
-            </h2>
+          <div class="home__info">
+            <p class="home__description">
+              <b>Software Engineer</b>, with knoledge in web development and
+              design, I prefer study for my future.
+            </p>
 
-            <div class="services__container container grid">
-                <article class="services__card">
-                    <div class="services__border"></div>
+            <a href="#about" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
 
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-settings-line"></i>
-                        </div>
+              <span class="home__scroll-text">Scroll Down</span>
+            </a>
+          </div>
+        </div>
+      </section>
 
-                        <h2 class="services__title">Software Engineering.</h2>
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <h2 class="section__title-1">
+            <span>About Me.</span>
+          </h2>
 
-                        <p class="services__description">
-                            Solid and clear applications with
-                            full-functionalized code, efficient
-                            and pleasant to use the user.
-                        </p>
-                    </div>
-                </article>
+          <div class="about__perfil">
+            <div class="about__image">
+              <img src="img/INN05026.jpg" alt="image" class="about__img" />
 
-                <article class="services__card">
-                    <div class="services__border"></div>
+              <div class="about__shadow"></div>
 
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-terminal-box-line"></i>
-                        </div>
+              <div class="geometric-box"></div>
 
-                        <h2 class="services__title">Development.</h2>
-
-                        <p class="services__description">
-                            Precisely completed work with clean, 
-                            readable code, including all new and 
-                            necessary technologies for development.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-smartphone-line"></i>
-                        </div>
-
-                        <h2 class="services__title">Mobile App.</h2>
-
-                        <p class="services__description">
-                            Creation of mobile applications, 
-                            adaptation of applications to the mobile version, 
-                            development of the mobile platform and cross-platform applications. NOT YET.
-                        </p>
-                    </div>
-                </article>
-
+              <div class="about__box"></div>
             </div>
-        </section>
-        
-        <section class="projects section" id="projects">
-            <h2 class="section__title-1">
-                <span>Projects.</span>
-            </h2>
-            <div class="projects__container container grid">
+          </div>
 
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="img/project5.png" alt="image" class="projects__img">
-                        
-                        <a href="https://dkcodec.github.io/Weather-App/" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-    
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Real Time Weather</h3>
-                        <h2 class="projects__title">Weather Application</h2>
-                        <p class="projects__description">
-                            The Real-Time Weather App, powered by the OpenWeather API, offers up-to-the-minute weather updates. 
-                            With a sleek JavaScript, HTML, and CSS design, 
-                            it provides humidity and wind speed data for a comprehensive weather experience.
-                        </p>
-                    </div>
-    
-                    <div class="projects__buttons">
-                        <a href="https://github.com/dkcodec/Weather-App" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                    </div>
-    
-                </article>
+          <div class="about__info">
+            <p class="about__description">
+              An accomplished, dedicated <b>Software Engineer</b> and student at
+              Astana IT University, this individual excels in creating
+              impressive <b>Web Pages</b> and <b>Web Applications</b>. My
+              Portfolio demonstrates a consistent commitment to excellence and
+              innovative problem-solving skills, making me a valuable asset in
+              the IT industry.
+            </p>
 
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="img/project1.jpg" alt="image" class="projects__img">
-                        
-                        <a href="" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Website</h3>
-                        <h2 class="projects__title">Portfolio Website</h2>
-
-                        <p class="projects__description">
-                            Explore my portfolio website showcasing my work crafted with JavaScript, HTML, and CSS. 
-                            Discover interactive web projects, 
-                            elegant designs, and seamless functionality that highlight my skills and creativity.
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/dkcodec/Web-Profile" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                    </div>
-
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="img/project2.png" alt="image" class="projects__img">
-                        
-                        <a href="https://dkcodec.github.io/Hex-and-color-generator/" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Color Application</h3>
-                        <h2 class="projects__title">Hex-Color Generator</h2>
-                        <p class="projects__description">
-                            Unleash your creativity with our Hex-Color Generator! This website, 
-                            built with JavaScript, HTML, and CSS, offers endless color possibilities 
-                            for your designs and projects. Explore, create, and inspire!
-                        </p>
-                    </div>
-
-                    
-                    <div class="projects__buttons">
-                        <a href="https://github.com/dkcodec/Hex-and-color-generator" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                    </div>
-
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="img/Criss_cross.png" alt="image" class="projects__img">
-                        
-                        <a href="https://dkcodec.github.io/Criss-Cross_Game" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Criss-Cross-Game</h3>
-                        <h2 class="projects__title">Criss-Cross-game with move history</h2>
-
-                        <p class="projects__description">
-                            Criss-Cross game created with React Dev documentation. Intresting project that
-                            increase my knowladge in SPA React application(Hooks, functions and other useful suff). 
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/dkcodec/Criss-Cross_Game" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                    </div>
-
-                </article>
-
-
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="img/project3.jpg" alt="image" class="projects__img">
-                        
-                        <a href="https://github.com/dkcodec/Ascii_art_generator" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Art Application</h3>
-                        <h2 class="projects__title">Ascii Art Generator</h2>
-
-                        <p class="projects__description">
-                            Discover the magic of ASCII art on our Python-powered website. With a library of creative 
-                            tools, turn text into stunning visual 
-                            masterpieces effortlessly. Unleash your inner artist today!
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/dkcodec/Ascii_art_generator" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                    </div>
-
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="img/project4.jpg" alt="image" class="projects__img">
-                        
-                        <a href="https://dkcodec.github.io/Password_Generator/" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Password Application</h3>
-                        <h2 class="projects__title">Password Generator</h2>
-
-                        <p class="projects__description">
-                            Introducing my Password Generator website: Craft strong, unique passwords effortlessly! 
-                            Powered by JavaScript, HTML, and sleek CSS design, it ensures security with ease. 
-                            Generate and protect your online accounts today!
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/dkcodec/Password_Generator" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                    </div>
-
-                </article>
-            </div>
-        </section>
-
-        <section class="contact_section" id="contact">
-            <div class="contact__container grid">
-                <div class="contact__data">
-                    <h2 class="section__title-2">
-                        <span>Contact Me.</span>
-                    </h2>
-
-                    <p class="contact__description-1">
-                        Every message you send me I read and I'll get back to you.
-                    </p>
-
-                    <p class="contact__description-2">
-                        Please tell me your <b>Name</b> and <b>Email address</b>, you won't get anything other than your question.
-                    </p>
-
-                    <div class="geometric-box"></div>
-                </div>
-
-                <div class="contact__mail">
-                    <h2 class="contact__title">
-                        Get In Touch With Me
-                    </h2>
-
-                    <form action="" class="contact__form" id="contact-form">
-                        <div class="contact__group">
-                            <div class="contact__box">
-                                <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
-                                <label for="name" class="contact__label">First Name</label>
-                            </div>
-                            
-                            <div class="contact__box">
-                                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
-                                <label for="email" class="contact__label">Email Address</label>
-                            </div>
-                        
-                        </div>
-                        
-                            <div class="contact__box">
-                                <input type="subject" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
-                                <label for="subject" class="contact__label">Subject</label>
-                            </div>
-
-                            <div class="contact__box contact__area">
-                                <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
-                                <label for="message" class="contact__label">Message</label>
-                            </div>
-
-                        <p class="contact__message" id="contact-message"></p>
-
-                        <button type="submit" class="contact__button button">
-                            <i class="ri-send-plane-line"></i>Send Message
-                        </button>
-                    </form>
-                </div>
-
-                <div class="contact__social">  
-                    
-                    <div class="contact__social-data">
-                        <div>
-                            <p class="contact__social-description-1">
-                                Doesn't send emails?
-                            </p>
-
-                            <p class="contact__social-description-1">
-                                Me on my social networks
-                            </p>
-                        </div>
-
-                        <div class="contact__social-links">
-                            <a href="https://instagram.com/ne_tvoi_fotograf?igshid=YTQwZjQ0NmI0OA==" target="_blank" class="contact__social-link">
-                                <i class="ri-instagram-line"></i>
-                            </a>
-
-                            <a href="https://www.linkedin.com/in/dmitry-kairgeldin-94a793290/?trk=public-profile-join-page" target="_blank" class="contact__social-link">
-                                <i class="ri-linkedin-box-line"></i>
-                            </a>
-
-                            <a href="https://t.me/KaDmRo" target="_blank" class="contact__social-link">
-                                <i class="ri-telegram-line"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </mian>
-    <footer class="footer">
-        <div class="footer__container container grid">
-            <ul class="footer__links">
-                <li>
-                    <a href="#" class="footer__link">Home</a>
-                </li>
-
-                <li>
-                    <a href="#about" class="footer__link">About</a>
-                </li>
-
-                <li>
-                    <a href="#services" class="footer__link">Services</a>
-                </li>
-
-                <li>
-                    <a href="#projects" class="footer__link">Projects</a>
-                </li>
+            <ul class="about__list">
+              <li class="about__item">
+                <b>I have a strong background in:</b> HTML5, CSS, JavaScript,
+                TypeScript, React.js, Next.js, TailWindCSS, RestAPI, Jest, Git &
+                GitHub,
+              </li>
             </ul>
 
-            <span class="footer__copy">
-                &#169 all rights reserved by <b>Kairgeldin Dmitry</b>
-                <b>&#169 2024</b>
-            </span>
+            <div class="about__buttons">
+              <a href="#contact" class="button">
+                <i class="ri-send-plane-line"></i>Contact Me
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/dmitry-kairgeldin-94a793290/?trk=public-profile-join-page"
+                target="_blank"
+                class="button__ghost"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+            </div>
+          </div>
         </div>
+      </section>
+
+      <section class="services section">
+        <h2 class="section__title-2">
+          <span>Services.</span>
+        </h2>
+
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-settings-line"></i>
+              </div>
+
+              <h2 class="services__title">Software Engineering.</h2>
+
+              <p class="services__description">
+                Solid and clear applications with full-functionalized code,
+                efficient and pleasant to use the user.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-terminal-box-line"></i>
+              </div>
+
+              <h2 class="services__title">Development.</h2>
+
+              <p class="services__description">
+                Precisely completed work with clean, readable code, including
+                all new and necessary technologies for development.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-smartphone-line"></i>
+              </div>
+
+              <h2 class="services__title">Mobile App.</h2>
+
+              <p class="services__description">
+                Creation of mobile applications, adaptation of applications to
+                the mobile version, development of the mobile platform and
+                cross-platform applications.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <h2 class="section__title-1">
+          <span>Projects.</span>
+        </h2>
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img src="img/project5.png" alt="image" class="projects__img" />
+
+              <a
+                href="https://dkcodec.github.io/Weather-App/"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Real Time Weather</h3>
+              <h2 class="projects__title">Weather Application</h2>
+              <p class="projects__description">
+                The Real-Time Weather App, powered by the OpenWeather API,
+                offers up-to-the-minute weather updates. With a sleek
+                JavaScript, HTML, and CSS design, it provides humidity and wind
+                speed data for a comprehensive weather experience.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/dkcodec/Weather-App"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img src="img/project5.png" alt="image" class="projects__img" />
+
+              <a
+                href="https://dkcodec.github.io/Weather-App/"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Real Time Weather</h3>
+              <h2 class="projects__title">Weather Application</h2>
+              <p class="projects__description">
+                The Real-Time Weather App, powered by the OpenWeather API,
+                offers up-to-the-minute weather updates. With a sleek
+                JavaScript, HTML, and CSS design, it provides humidity and wind
+                speed data for a comprehensive weather experience.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/dkcodec/Weather-App"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img src="img/project1.jpg" alt="image" class="projects__img" />
+
+              <a href="" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Portfolio Website</h2>
+
+              <p class="projects__description">
+                Explore my portfolio website showcasing my work crafted with
+                JavaScript, HTML, and CSS. Discover interactive web projects,
+                elegant designs, and seamless functionality that highlight my
+                skills and creativity.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/dkcodec/Web-Profile"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img src="img/project2.png" alt="image" class="projects__img" />
+
+              <a
+                href="https://dkcodec.github.io/Hex-and-color-generator/"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Color Application</h3>
+              <h2 class="projects__title">Hex-Color Generator</h2>
+              <p class="projects__description">
+                Unleash your creativity with our Hex-Color Generator! This
+                website, built with JavaScript, HTML, and CSS, offers endless
+                color possibilities for your designs and projects. Explore,
+                create, and inspire!
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/dkcodec/Hex-and-color-generator"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="img/Criss_cross.png"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a
+                href="https://dkcodec.github.io/Criss-Cross_Game"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Criss-Cross-Game</h3>
+              <h2 class="projects__title">
+                Criss-Cross-game with move history
+              </h2>
+
+              <p class="projects__description">
+                Criss-Cross game created with React Dev documentation.
+                Intresting project that increase my knowladge in SPA React
+                application(Hooks, functions and other useful suff).
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/dkcodec/Criss-Cross_Game"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img src="img/project3.jpg" alt="image" class="projects__img" />
+
+              <a
+                href="https://github.com/dkcodec/Ascii_art_generator"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Art Application</h3>
+              <h2 class="projects__title">Ascii Art Generator</h2>
+
+              <p class="projects__description">
+                Discover the magic of ASCII art on our Python-powered website.
+                With a library of creative tools, turn text into stunning visual
+                masterpieces effortlessly. Unleash your inner artist today!
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/dkcodec/Ascii_art_generator"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img src="img/project4.jpg" alt="image" class="projects__img" />
+
+              <a
+                href="https://dkcodec.github.io/Password_Generator/"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Password Application</h3>
+              <h2 class="projects__title">Password Generator</h2>
+
+              <p class="projects__description">
+                Introducing my Password Generator website: Craft strong, unique
+                passwords effortlessly! Powered by JavaScript, HTML, and sleek
+                CSS design, it ensures security with ease. Generate and protect
+                your online accounts today!
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/dkcodec/Password_Generator"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact_section" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__data">
+            <h2 class="section__title-2">
+              <span>Contact Me.</span>
+            </h2>
+
+            <p class="contact__description-1">
+              Every message you send me I read and I'll get back to you.
+            </p>
+
+            <p class="contact__description-2">
+              Please tell me your <b>Name</b> and <b>Email address</b>, you
+              won't get anything other than your question.
+            </p>
+
+            <div class="geometric-box"></div>
+          </div>
+
+          <div class="contact__mail">
+            <h2 class="contact__title">Get In Touch With Me</h2>
+
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="First Name"
+                  />
+                  <label for="name" class="contact__label">First Name</label>
+                </div>
+
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                  <label for="email" class="contact__label"
+                    >Email Address</label
+                  >
+                </div>
+              </div>
+
+              <div class="contact__box">
+                <input
+                  type="subject"
+                  name="user_subject"
+                  class="contact__input"
+                  id="subject"
+                  required
+                  placeholder="Subject"
+                />
+                <label for="subject" class="contact__label">Subject</label>
+              </div>
+
+              <div class="contact__box contact__area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  class="contact__input"
+                  required
+                  placeholder="Message"
+                ></textarea>
+                <label for="message" class="contact__label">Message</label>
+              </div>
+
+              <p class="contact__message" id="contact-message"></p>
+
+              <button type="submit" class="contact__button button">
+                <i class="ri-send-plane-line"></i>Send Message
+              </button>
+            </form>
+          </div>
+
+          <div class="contact__social">
+            <div class="contact__social-data">
+              <div>
+                <p class="contact__social-description-1">
+                  Doesn't send emails?
+                </p>
+
+                <p class="contact__social-description-1">
+                  Me on my social networks
+                </p>
+              </div>
+
+              <div class="contact__social-links">
+                <a
+                  href="https://instagram.com/ne_tvoi_fotograf?igshid=YTQwZjQ0NmI0OA=="
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/dmitry-kairgeldin-94a793290/?trk=public-profile-join-page"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-linkedin-box-line"></i>
+                </a>
+
+                <a
+                  href="https://t.me/KaDmRo"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-telegram-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </mian>
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer__link">Services</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; all rights reserved by <b>Kairgeldin Dmitry</b>
+          <b>&#169; 2024</b>
+        </span>
+      </div>
     </footer>
 
     <a href="#" class="scrollup" id="scroll-up">
-        <i class="ri-arrow-up-s-line"></i>
+      <i class="ri-arrow-up-s-line"></i>
     </a>
 
     <script src="js/scrollreveal.js"></script>
@@ -503,5 +633,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
