@@ -12,6 +12,7 @@
   --text-color-light: rgb(128, 144, 147);
   --body-color: rgba(235, 235, 240, 1);
   --container-color: rgba(238, 238, 238, 0.9);
+  /* --container-color: rgba(177, 34, 34, 0.9); */
 
   --biggest-font-size: 2.5rem;
   --h1-font-size: 1.75rem;
@@ -773,13 +774,14 @@ body.dark-theme {
 
 /* Contact */
 .contact {
-  padding-bottom: 0;
+  padding-bottom: 200px;
 }
 
 .contact__container {
   position: relative;
   grid-template-rows: 300px max-content max-content;
   row-gap: 0;
+  margin-top: 100px;
 }
 
 .contact__data {
@@ -824,7 +826,7 @@ body.dark-theme {
 }
 
 .contact__title {
-  color: var(--white-color);
+  color: var(--black-color-light);
   font-size: var(--h2-font-size);
   margin-bottom: 2rem;
   text-align: center;
